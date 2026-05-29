@@ -1,211 +1,211 @@
 // ─────────────────────────────────────────────────────────────────────────────
-// COPY.JS — Fuente única de TODO el texto visible de la landing.
-// Doc §7: cero texto hardcodeado en componentes. Si está en pantalla, está aquí.
+// COPY.JS — Izvor SVEG vidljivog teksta za landing stranicu.
+// Doc §7: Bez hardkodiranog teksta u komponentama. Ako je na ekranu, tu je.
 // ─────────────────────────────────────────────────────────────────────────────
 
 export const copy = {
-  // ── SEO / METADATA (Layout.astro lo lee) ──────────────────────────────────
+  // ── SEO / METADATA (Layout.astro čita ovo) ──────────────────────────────────
   metadata: {
-    lang: 'pt-BR',
-    title: '150 receitas de drinks gourmet',
+    lang: 'hr',
+    title: '150 recepata za premium koktele kod kuće',
     description:
-      'Receitas de drinks prontas para vender — ingredientes simples, produção rápida e margem de lucro alta. Comece a faturar até R$3.000/mês com bônus exclusivos.',
+      'Recepti za koktele spremne za tulum — jednostavni sastojci, brza priprema. Zadivi ekipu, uštedi na skupim barovima i postani zvijezda večeri. Uključuje ekskluzivne bonuse.',
     canonical: 'https://150receitascopao.netlify.app',
     ogImage: '/og-cover.jpg',
     ogType: 'website',
-    siteName: 'MUNDO DOS DRINKS',
+    siteName: 'SVIJET KOKTELA',
   },
 
-  // ── 1. TIMER STICKY ARRIBA ────────────────────────────────────────────────
+  // ── 1. TIMER STICKY ZAGLAVLJE ────────────────────────────────────────────────
   timerBar: {
     icon: '⏰',
-    label: 'Promoção encerra em:',
+    label: 'Ponuda istječe za:',
     initialMinutes: 9,
     initialSeconds: 57,
   },
 
   // ── 2. HERO ───────────────────────────────────────────────────────────────
   hero: {
-    tag: '🍋 Oferta Exclusiva',
-    titleHighlight: '150 Receitas de copão Gourmet',
-    titleConnector: 'para Vender',
-    titleHighlightGreen: 'R$3.000',
-    titleEnd: 'Começando do Zero',
-    deliveryLabel: 'Você recebe imediatamente no',
+    tag: '🍋 Ekskluzivna ponuda',
+    titleHighlight: '150 recepata za vrhunske koktele',
+    titleConnector: 'za tvoj',
+    titleHighlightGreen: 'čisti užitak',
+    titleEnd: 'Čak i ako si apsolutni početnik',
+    deliveryLabel: 'Dobivaš trenutni pristup preko',
     deliveryChannels: [
       { label: 'WhatsApp', kind: 'whatsapp' },
       { label: 'Email', kind: 'email' },
     ],
-    videoAlt: 'Apresentação do kit 150 receitas de drinks gourmet',
-    ctaLabel: '✅ QUERO GARANTIR MINHAS RECEITAS AGORA',
-    ctaSub: '🔒 Compra 100% segura • Acesso imediato',
+    videoAlt: 'Predstavljanje paketa 150 recepata za kućne koktele',
+    ctaLabel: '✅ ŽELIM SVOJE RECEPTE ODMAH',
+    ctaSub: '🔒 100% sigurna kupnja • Trenutni pristup',
   },
 
-  // ── 3. BENEFÍCIOS ─────────────────────────────────────────────────────────
+  // ── 3. PREDNOSTI ─────────────────────────────────────────────────────────
   benefits: {
     intro:
-      'Receitas de drinks prontas para vender — ingredientes simples, produção rápida,',
-    introStrong: 'alto valor percebido e margem de lucro que vai te surpreender!',
+      'Recepti stvoreni za maksimalan užitak — jednostavni sastojci, brza priprema,',
+    introStrong: 'nevjerojatan okus i izgled s kojim ćeš oboriti s nogu svakog gosta!',
     items: [
-      'Qualquer pessoa consegue fazer',
-      'Sem cozinha profissional ou equipamentos caros',
-      'Receitas prontas, testadas e com custo baixo',
-      'Perfeito para vender no WhatsApp, rua ou delivery',
+      'Pripremati svaki koktel bez ikakvog prethodnog iskustva',
+      'Stvarati čaroliju bez profesionalne opreme ili skupe kuhinje',
+      'Uživati u provjerenim receptima s lako dostupnim sastojcima',
+      'Biti glavna zvijezda svakog kućnog tuluma, druženja na vikendici ili s ekipom',
     ],
-    ctaLabel: '🍹 QUERO GARANTIR MINHAS RECEITAS AGORA',
+    ctaLabel: '🍹 ŽELIM SVOJE RECEPTE ODMAH',
   },
 
-  // ── 4. CARRUSEL DE RECETAS ────────────────────────────────────────────────
+  // ── 4. KARUSEL S RECEPTIMA ────────────────────────────────────────────────
   carousel: {
-    title: '🍹 Algumas das receitas que você irá',
-    titleHighlight: 'aprender e lucrar!',
+    title: '🍹 Dio recepata u kojima ćeš',
+    titleHighlight: 'uživati s ekipom!',
     slides: [
-      { caption: 'Copão Beijo Doce', alt: 'Drink Copão Beijo Doce' },
+      { caption: 'Slatki poljubac', alt: 'Koktel Slatki poljubac' },
       {
-        caption: 'Espanhola de Vinho c/ Maracujá',
-        alt: 'Drink Espanhola de Vinho com Maracujá',
+        caption: 'Španjolsko vino s marakujom',
+        alt: 'Koktel Španjolsko vino s marakujom',
       },
-      { caption: 'MaracuBeats Cremosa', alt: 'Drink MaracuBeats Cremosa' },
-      { caption: 'Batida de Bala Halls', alt: 'Drink Batida de Bala Halls' },
-      { caption: 'Drink do Verão', alt: 'Drink do Verão' },
+      { caption: 'Kremasti MaracuBeats', alt: 'Koktel Kremasti MaracuBeats' },
+      { caption: 'Koktel s Halls bombonima', alt: 'Koktel s Halls bombonima' },
+      { caption: 'Ljetni povjetarac', alt: 'Koktel Ljetni povjetarac' },
       {
-        caption: 'Caipirinha de Maracujá c/ Café',
-        alt: 'Drink Caipirinha de Maracujá com Café',
+        caption: 'Caipirinha s marakujom i kavom',
+        alt: 'Koktel Caipirinha s marakujom i kavom',
       },
     ],
-    prevLabel: 'Slide anterior',
-    nextLabel: 'Próximo slide',
-    dotLabel: 'Ir para o slide',
+    prevLabel: 'Prethodni slide',
+    nextLabel: 'Sljedeći slide',
+    dotLabel: 'Na slide',
   },
 
-  // ── 5. BÔNUS ──────────────────────────────────────────────────────────────
+  // ── 5. BONUSI ──────────────────────────────────────────────────────────────
   bonuses: {
-    title: '🎁 E ainda tem',
-    titleHighlight: 'BÔNUS!',
+    title: '🎁 I naravno, tu su i',
+    titleHighlight: 'BONUSI!',
     items: [
       {
-        tag: 'Bônus 1',
-        title: '50 Receitas Alcoólicas de Batidas na Garrafa',
-        description: 'Receitas prontas para vender, sem os bônus exclusivos.',
-        alt: '50 Receitas Alcoólicas de Batidas na Garrafa',
+        tag: 'Bonus 1',
+        title: '50 recepata za alkoholne shootere i punčeve',
+        description: 'Savršena party cuga koju ćeš smiksati u trenu i podijeliti s društvom.',
+        alt: '50 recepata za alkoholne shootere i punčeve',
       },
       {
-        tag: 'Bônus 2',
-        title: 'Tabela de Precificação — Quanto Cobrar em Cada Receita',
+        tag: 'Bonus 2',
+        title: 'Pametan popis za kupovinu — kako uštedjeti lovu',
         description:
-          'Saiba exatamente quanto cobrar para lucrar de verdade em cada drink que vender.',
-        alt: 'Tabela de Precificação dos drinks',
+          'Saznaj točno koje sastojke trebaš kupiti za top koktele, a da ne bankrotiraš po skupim barovima.',
+        alt: 'Popis za kupovinu i kalkulator',
       },
       {
-        tag: 'Bônus 3',
-        title: '✅ Roteiro Pronto: Como Anunciar no WhatsApp e Fechar Vendas',
-        description: 'Scripts prontos para você copiar, colar e já começar a vender.',
-        alt: 'Roteiro de vendas pelo WhatsApp',
+        tag: 'Bonus 3',
+        title: '✅ Vodič: Kako organizirati savršenu koktel večer',
+        description: 'Gotove ideje i koraci kako stvoriti nezaboravno iskustvo i ostaviti goste bez teksta.',
+        alt: 'Priručnik za kućni tulum',
       },
       {
-        tag: 'Bônus 4',
-        title: 'Videoaula: Como Embalar e Apresentar para Vender Mais',
+        tag: 'Bonus 4',
+        title: 'Video lekcija: Kako ukrašavati i posluživati kao profić',
         description:
-          'Aprenda a deixar seus produtos irresistíveis e cobrar mais caro por isso.',
-        alt: 'Videoaula sobre embalagem e apresentação',
+          'Nauči tajne vrhunske prezentacije koja obično piće pretvara u remek-djelo s 5 zvjezdica.',
+        alt: 'Video lekcija za dekoraciju koktela',
       },
     ],
   },
 
-  // ── 6. PREÇO ──────────────────────────────────────────────────────────────
+  // ── 6. CIJENE ──────────────────────────────────────────────────────────────
   pricing: {
-    sectionId: 'precos',
-    title: 'Escolha como quer começar hoje:',
+    sectionId: 'cijene',
+    title: 'Odaberi kako želiš započeti već danas:',
     complete: {
-      badge: '⭐ Mais Vendido',
-      title: 'Kit Completo +150 Receitas de Drinks',
-      descriptionLead: '+150 receitas de drinks na garrafa prontas para vender + todos os',
-      descriptionStrong: 'bônus exclusivos',
-      descriptionTail: 'para você faturar até R$3.000/mês.',
-      mockupAlt: 'Mockup do Kit 150 Receitas de Copão Gourmet',
-      includesLabel: '🎁 Inclui todos os bônus:',
+      badge: '⭐ Najtraženije',
+      title: 'Premium Paket: 150+ recepata za koktele',
+      descriptionLead: '150+ recepata za brutalne kućne koktele + svi',
+      descriptionStrong: 'ekskluzivni bonusi,',
+      descriptionTail: 'kako bi postao najbolji barmen u ekipi.',
+      mockupAlt: 'Mockup Premium Paketa sa 150 recepata',
+      includesLabel: '🎁 Uključuje sve bonuse:',
       items: [
-        '+150 receitas de drinks gourmet',
-        'Lista de fornecedores baratos para garrefinhas',
-        'Tabela de precificação — todos os drinks',
-        'Roteiro de vendas pelo WhatsApp',
-        'Videoaula: como embalar e vender mais',
+        '150+ recepata za premium koktele',
+        'Popis jeftinih alternativa za skupa pića',
+        'Vodič za pametnu kupovinu sastojaka',
+        'Priručnik za savršen kućni tulum',
+        'Video lekcija za profesionalno ukrašavanje',
       ],
-      strikePrice: 'De R$59,90',
-      price: 'R$24,90',
-      priceNote: 'acesso imediato',
-      ctaLabel: '🛒 QUERO O KIT COMPLETO',
-      footer: '✅ Acesso imediato · E-mail + WhatsApp · Garantia de 7 dias',
+      strikePrice: 'Od 29.90 €',
+      price: '8.90 €',
+      priceNote: 'trenutni pristup',
+      ctaLabel: '🛒 ŽELIM PREMIUM PAKET',
+      footer: '✅ Trenutni pristup · Email + WhatsApp · 14 dana garancije',
     },
   },
 
-  // ── 7. GARANTIA ───────────────────────────────────────────────────────────
+  // ── 7. GARANCIJA ───────────────────────────────────────────────────────────
   guarantee: {
     icon: '🛡️',
-    title: 'Garantia de 7 dias',
+    title: '14 dana bezuvjetne garancije',
     description:
-      'Se por qualquer motivo você não gostar, devolvemos 100% do seu dinheiro. Sem perguntas, sem burocracia.',
+      'Ako iz bilo kojeg razloga ne budeš apsolutno oduševljen, vraćamo ti novac do zadnjeg centa. Nema glupih pitanja, nema natezanja.',
   },
 
-  // ── 8. FAQ ────────────────────────────────────────────────────────────────
+  // ── 8. ČPP (Često postavljana pitanja) ────────────────────────────────────────────────
   faq: {
-    title: 'Dúvidas',
-    titleHighlight: 'frequentes:',
+    title: 'Često postavljana',
+    titleHighlight: 'pitanja:',
     items: [
       {
-        q: 'Preciso saber cozinhar para comprar?',
-        a: 'Não! As receitas são simples e qualquer pessoa consegue fazer, mesmo sem experiência na cozinha.',
+        q: 'Trebam li imati iskustva da bih ih napravio?',
+        a: 'Apsolutno ne! Recepti su objašnjeni toliko jednostavno da ih može smiksati baš svatko, čak i ako nikad u životu nisi napravio koktel.',
       },
       {
-        q: 'Preciso de equipamentos caros ou cozinha profissional?',
-        a: 'Não precisa. Tudo pode ser feito em casa com utensílios simples que você provavelmente já tem.',
+        q: 'Trebaju li mi skupi shakeri i profesionalna oprema?',
+        a: 'Ma kakvi. Sve možeš napraviti doma s običnim priborom koji već imaš u kuhinji.',
       },
       {
-        q: 'Onde vou vender os drinks?',
-        a: 'Você pode vender no WhatsApp, nas redes sociais, em festas, por delivery ou até na rua. O bônus 3 te ensina exatamente como fazer isso.',
+        q: 'Za kakve su prigode ovi kokteli?',
+        a: 'Za doslovno sve! Od opuštanja nakon teškog radnog dana, preko romantične večere, do ludog kućnog tuluma ili vikenda s ekipom.',
       },
       {
-        q: 'Quanto posso cobrar por cada garrafa?',
-        a: 'Com a tabela de precificação incluída, você vai saber exatamente quanto cobrar para ter uma margem de lucro alta em cada venda.',
+        q: 'Jesu li sastojci skupi?',
+        a: 'Ne. Uz naš pametan popis za kupovinu naučit ćeš kako dobiti premium okus s pristupačnim proizvodima iz tvog kvartovskog supermarketa.',
       },
       {
-        q: 'Como recebo após a compra?',
-        a: 'O acesso é imediato! Você recebe no e-mail e no WhatsApp assim que o pagamento for confirmado.',
+        q: 'Kako ću dobiti pristup nakon kupnje?',
+        a: 'Pristup je trenutan! Čim uplata prođe, sve ti stiže direktno na mail i WhatsApp.',
       },
       {
-        q: 'Tenho garantia se não gostar?',
-        a: 'Sim! Você tem 7 dias de garantia total. Se não gostar por qualquer motivo, devolvemos 100% do valor pago.',
+        q: 'Postoji li garancija ako mi se ne svidi?',
+        a: 'Naravno! Imaš puna 14 dana bezuvjetne garancije. Ako nisi zadovoljan, vraćamo ti 100% love.',
       },
     ],
   },
 
-  // ── 9. URGÊNCIA ──────────────────────────────────────────────────────────
+  // ── 9. HITNOST ──────────────────────────────────────────────────────────
   urgency: {
-    text: '⏰ Não fique esperando — cada dia sem vender é dinheiro perdido!',
+    text: '⏰ Ne odgađaj — vikend se bliži, a s njim i još jedna dosadna večer. Promijeni to odmah!',
   },
 
-  // ── 10. CTA FINAL ─────────────────────────────────────────────────────────
+  // ── 10. FINALNI CTA ─────────────────────────────────────────────────────────
   finalCta: {
-    ctaLabel: '🍹 QUERO ACESSO ÀS 150 RECEITAS AGORA',
-    subText: '🔒 Acesso imediato • Garantia de 7 dias • Pagamento seguro',
+    ctaLabel: '🍹 ŽELIM PRISTUP ZA SVIH 150 RECEPATA ODMAH',
+    subText: '🔒 Trenutni pristup • 14 dana garancije • Sigurno plaćanje',
   },
 
-  // ── 11. SEGURIDAD (badges) ────────────────────────────────────────────────
+  // ── 11. SIGURNOST (bedževi) ────────────────────────────────────────────────
   security: {
     items: [
-      { icon: '🔒', label: 'SSL Seguro' },
-      { icon: '💳', label: 'Pagamento Protegido' },
-      { icon: '📲', label: 'Acesso Imediato' },
+      { icon: '🔒', label: 'SSL Zaštita' },
+      { icon: '💳', label: 'Sigurno plaćanje' },
+      { icon: '📲', label: 'Trenutni pristup' },
     ],
   },
 
   // ── 12. FOOTER ────────────────────────────────────────────────────────────
   footer: {
-    text: '© 2026 · MUNDO DOS DRINKS · Todos os direitos reservados',
+    text: '© 2026 · SVIJET KOKTELA · Sva prava pridržana',
   },
 
-  // ── A11Y / texto auxiliar (no visible "directamente" pero usado en aria) ──
+  // ── A11Y / pomoćni tekst ──
   a11y: {
-    skipToContent: 'Ir para o conteúdo principal',
+    skipToContent: 'Preskoči na glavni sadržaj',
   },
 };
