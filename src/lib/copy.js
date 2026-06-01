@@ -7,7 +7,7 @@ export const copy = {
   // ── SEO / METADATA (Layout.astro čita ovo) ──────────────────────────────────
   metadata: {
     lang: 'hr',
-    title: '150 recepata za premium koktele kod kuće',
+    title: '500 recepata za premium koktele kod kuće',
     description:
       'Recepti za koktele spremne za tulum — jednostavni sastojci, brza priprema. Zadivi ekipu, uštedi na skupim barovima i postani zvijezda večeri. Uključuje ekskluzivne bonuse.',
     canonical: 'https://150receitascopao.netlify.app',
@@ -27,7 +27,7 @@ export const copy = {
   // ── 2. HERO ───────────────────────────────────────────────────────────────
   hero: {
     tag: '🍋 Ekskluzivna ponuda',
-    titleHighlight: '150 recepata za vrhunske koktele',
+    titleHighlight: '500 recepata za vrhunske koktele',
     titleConnector: 'za tvoj',
     titleHighlightGreen: 'čisti užitak',
     titleEnd: 'Čak i ako si apsolutni početnik',
@@ -36,7 +36,7 @@ export const copy = {
       { label: 'WhatsApp', kind: 'whatsapp' },
       { label: 'Email', kind: 'email' },
     ],
-    videoAlt: 'Predstavljanje paketa 150 recepata za kućne koktele',
+    videoAlt: 'Predstavljanje paketa 500 recepata za kućne koktele',
     ctaLabel: '✅ ŽELIM SVOJE RECEPTE ODMAH',
     ctaSub: '🔒 100% sigurna kupnja • Trenutni pristup',
   },
@@ -118,14 +118,14 @@ export const copy = {
     title: 'Odaberi kako želiš započeti već danas:',
     complete: {
       badge: '⭐ Najtraženije',
-      title: 'Premium Paket: 150+ recepata za koktele',
-      descriptionLead: '150+ recepata za brutalne kućne koktele + svi',
+      title: 'Premium Paket: 500+ recepata za koktele',
+      descriptionLead: '500+ recepata za brutalne kućne koktele + svi',
       descriptionStrong: 'ekskluzivni bonusi,',
       descriptionTail: 'kako bi postao najbolji barmen u ekipi.',
-      mockupAlt: 'Mockup Premium Paketa sa 150 recepata',
+      mockupAlt: 'Mockup Premium Paketa sa 500 recepata',
       includesLabel: '🎁 Uključuje sve bonuse:',
       items: [
-        '150+ recepata za premium koktele',
+        '500+ recepata za premium koktele',
         'Popis jeftinih alternativa za skupa pića',
         'Vodič za pametnu kupovinu sastojaka',
         'Priručnik za savršen kućni tulum',
@@ -186,7 +186,7 @@ export const copy = {
 
   // ── 10. FINALNI CTA ─────────────────────────────────────────────────────────
   finalCta: {
-    ctaLabel: '🍹 ŽELIM PRISTUP ZA SVIH 150 RECEPATA ODMAH',
+    ctaLabel: '🍹 ŽELIM PRISTUP ZA SVIH 500 RECEPATA ODMAH',
     subText: '🔒 Trenutni pristup • 14 dana garancije • Sigurno plaćanje',
   },
 
